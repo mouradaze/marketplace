@@ -1,10 +1,10 @@
 a{
     text-decoration: none;
-    color: rgb(170, 170, 170);
+    color: rgb(169, 135, 209);
 }
 .fs{
-    background-color: lightblue;
-    border: 0.5px solid lightblue;
+    background-color: rgb(213, 173, 230);
+    border: 0.5px solid rgb(228, 173, 230);
     border-radius: 15px;
 }
 .gold{
@@ -31,6 +31,6 @@ a{
 
 .f1{
     margin-top: 35px;
-    border: 3px solid lightgray;
+    border: 3px solid rgb(140, 66, 192);
     border-radius: 10px;
 }
