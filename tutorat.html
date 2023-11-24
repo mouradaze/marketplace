@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Création de Session de Tutorat VR</title>
+</head>
+<body>
+
+    <div id="creation-form">
+        <h2>Création de Session de Tutorat VR</h2>
+        <form>
+            <label for="matiere">Sélectionnez la Matière :</label>
+            <select id="matiere" name="matiere">
+                <option value="math">Mathématiques</option>
+                <option value="physique">Physique</option>
+                <option value="physique">SVT</option>
+                <option value="physique">Histoire geographique</option>
+                <!-- Ajoutez d'autres options ici -->
+            </select>
+
+            <label for="niveau">Sélectionnez le Niveau :</label>
+            <select id="niveau" name="niveau">
+                <option value="primaire">Primaire</option>
+                <option value="college">Collège</option>
+                <!-- Ajoutez d'autres options ici -->
+            </select>
+
+            <label for="duree">Durée de la Session (en minutes) :</label>
+            <input type="number" id="duree" name="duree" required>
+
+            <label for="nombre-etudiants">Nombre d'Étudiants :</label>
+            <input type="number" id="nombre-etudiants" name="nombre-etudiants" required>
+
+            <button type="submit">Créer Session</button>
+        </form>
+    </div>
+
+</body>
+</html>
