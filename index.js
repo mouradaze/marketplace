@@ -15,3 +15,9 @@ function progress(){
     },2600)
 
 }
+function login(){
+    if(document.getElementById("username").value == "mourad")
+        window.location.href = "http://127.0.0.1:5500/seller.html"
+    else if(document.getElementById("username").value == "manal")
+        window.location.href = "http://127.0.0.1:5500/createur.html"
+}
